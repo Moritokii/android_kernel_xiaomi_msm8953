@@ -11,8 +11,8 @@ jobs:
            git config --global user.email "gianashtonreyes@gmail.com"
            git config --global color.ui false
            git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && cd ..
-           mkdir nbm69
-           cd nbm69
+           mkdir kk
+           cd kk
            wget https://raw.githubusercontent.com/Moritokii/android_kernel_xiaomi_msm8953/eleven-reb/.circleci/build.sh
            source build.sh
 workflows:
